@@ -1,0 +1,204 @@
+body {
+  margin: 0 auto;
+  font-family: "Economica", sans-serif;
+  background-color: #0d0d0d;
+}
+
+header {
+  background-color: #e6e6e6;
+  background-image: url("../images/header.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.2;
+  padding: 6vw;
+  text-align: center;
+  font-size: 18vw;
+  font-weight: bold;
+  color: #00b33c;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 80vw;
+  background-color: #e6e6e6;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.center {
+  text-align: center;
+}
+
+.overlay {
+  pointer-events: all;
+}
+
+.land {
+  cursor: pointer;
+}
+
+.states {
+  stroke: black;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-width: 0.3px;
+  cursor: pointer;
+}
+
+.boundary {
+  fill: none;
+  stroke: black;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+#input {
+  margin: 0 auto;
+  max-width: 50em;
+}
+
+.ui-widget {
+  padding-top: 5px;
+}
+
+.odometers {
+  font-size: 30px;
+  text-align:center;
+  padding-top: 20px;
+}
+
+.label {
+  cursor: pointer;
+  display: inline-block;
+  padding-right: 0.5em;
+  transform: translateY(5%);
+}
+
+#left {
+  float:left;
+}
+
+#center {
+  display: inline-block;
+  margin:0 auto;
+}
+
+#right {
+  float:right;
+}
+
+label {
+  font-family: "Economica", sans-serif;
+  font-size: 25px;
+}
+
+
+.xAxis path, .xAxis line, .yAxis path, .yAxis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+.xAxis text, yAxis text {
+  font-size: 13px;
+}
+
+.percentages {
+  padding-top: 20px;
+}
+
+#statePercent {
+  display: inline-block;
+  min-width: 10em;
+  max-width: 15em;
+  padding-right: 7em;
+}
+
+#countryPercent {
+  display: inline-block;
+  min-width: 10em;
+  max-width: 15em;
+  padding-left: 7em;
+}
+
+.button {
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  cursor: pointer; 
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button:hover, .bottom button:hover {
+  background-color: #555555;
+  color: white;
+}
+
+.button:active {
+  color: green;
+  border: 1px solid green;
+}
+
+.barButton {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.pieButton {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.visited {
+  font-color: green;
+}
+
+.notVisited {
+  font-color: red;
+}
+
+.ui-widget-overlay {
+  background: #AAA;
+  opacity: .50;
+  filter: Alpha(Opacity=30);
+}
+
+.ui-dialog {
+  background: #0d0d0d;
+}
+
+.help {
+  text-align: right;
+}
+
+.bottom button {
+  display: inline-block;
+  font-size: 15px;
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  cursor: pointer; 
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.bottom {
+  display: flex; 
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.compareDiv {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 30px;
+}

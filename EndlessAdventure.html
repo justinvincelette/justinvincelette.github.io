@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Endless Adventure</title>
+		<link rel="stylesheet" type="text/css" href="css/EAstyle.css" />
+		<link href="http://code.jquery.com/ui/1.10.4/themes/vader/jquery-ui.css" rel="stylesheet">
+		<script type="text/javascript" src="javascripts/countries.js"></script>
+		
+		<!-- D3.js -->
+		<script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+		<script type="text/javascript" src="http://d3js.org/topojson.v1.min.js"></script>
+		
+		<!-- Odometer -->
+		<link rel="stylesheet" href="http://github.hubspot.com/odometer/themes/odometer-theme-train-station.css" />
+		<script type="text/javascript" src="http://github.hubspot.com/odometer/odometer.js"></script>
+		
+		<!-- jQuery -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+		
+		<!-- Typed -->
+		<script src="javascripts/typed.js"></script>
+		
+		<!-- Firebase -->
+		<script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+	</head>
+	<body>
+		<header id="header">Endless Adventure</header>
+		<div class="content">
+			<div id="welcomeDialog" title="Welcome!">
+				<p>Please choose an option below.<br>An account is needed if you would like to save your data.</p>
+			</div>
+			<div id="loginSignupDialog">
+				 <form>
+					<fieldset>
+					<label for="email">Email</label>
+					<input type="text" name="email" id="email" class="text ui-widget-content ui-corner-all">
+					<label for="password">Password</label>
+					<input type="password" name="password" id="password" class="text ui-widget-content ui-corner-all">
+					<div class="confirmPW">
+						<label for="confirmPW">Confirm Password</label>
+						<input type="password" name="confirmPW" id="confirmPW" class="text ui-widget-content ui-corner-all">
+					</div>
+					</fieldset>
+					<text id="errorText"></text>
+				</form>
+			</div>
+			<div id="map" class="center"></div>
+			<div class="ui-widget center">
+				<label for="inputBox">Enter State/Country: </label>
+				<input id="inputBox">
+			</div>
+			<div class="odometers">
+				<div id="left"><text class="label" id="statesVisitedLabel">States visited:</text><div id="stateOdometer" class="odometer">0</div></div>
+				<div id="center"><text class="label" id="countriesVisitedLabel">Countries visited:</text><div id="countryOdometer" class="odometer">0</div></div>
+				<div id="right"><text class="label" id="continentsVisitedLabel">Continents visited:</text><div id="continentOdometer" class="odometer">0</div></div>
+			</div>
+			<div class="percentages center">
+				<div id="statePercent"></div>
+				<div id ="countryPercent"></div>
+			</div>
+			<div class="compareDiv">
+				<div id="left"><text class="label" id="statesVisitedLabel">States visited</text></div>
+				<div id="center"><text class="label" id="countriesVisitedLabel">Countries visited</text></div>
+				<div id="right"><text class="label" id="continentsVisitedLabel">Continents visited</text></div>
+			</div>
+			<div id="charts"></div>
+			<div class="center"><button class="button barButton">Bar</button><button class="button pieButton">Pie</button></div>
+			<div id="dialog"></div>
+			<div class="bottom">
+				<button class="logout">Log In</button>
+				<button class="reset">Reset</button>
+				<button class="compare">Compare</button>
+				<button class="help">Help</button>
+			</div>
+			<div id="compareDialog" title="Compare">
+				<p>Enter email of the person you would like to compare against</p>
+				 <form>
+					<fieldset>
+					<label for="compareEmail">Email</label>
+					<input type="text" name="compareEmail" id="compareEmail" class="text ui-widget-content ui-corner-all">
+					</fieldset>
+					<text id="compareError"></text>
+				</form>
+			</div>
+			<div id="resetDialog" title="Reset all data?">
+				<p>All of your data will be permanently deleted and cannot be recovered. Are you sure?</p>
+			</div>
+		</div>
+		<script type="text/javascript" src="javascripts/EAscript.js"></script>
+	</body>
+</html>
