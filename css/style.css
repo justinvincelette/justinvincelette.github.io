@@ -1,0 +1,262 @@
+html {
+    min-height: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    font-size: 100%;
+}
+
+body {
+    min-height: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%; 
+    -moz-text-size-adjust: 100%; 
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-size: x-large;
+}
+/*@media (max-width: 1000px) {
+  body { font-size: large; }
+}
+@media (max-width: 500px) {
+  body { font-size: medium; }
+}*/
+
+#header {
+    position: fixed;
+    height: 50px;
+    display: block;
+    width: 100%;
+    background: white;
+    z-index: 9;
+    text-align: center;
+    padding: 20px 0 0 0;
+    color: black;
+}
+
+#name {
+    position: relative;
+    text-align: left;
+    left: 3%;
+    top: -6px;
+    font-size: 30px;
+}
+
+#nav {
+    position: fixed;
+    right: 3%;
+    top: 8px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+#dropdown {
+    position: fixed;
+    display: inline-block;
+    left: 85%;
+    top: 70px;
+}
+
+#dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+#dropdownContent a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+#dropdownContent a:hover {
+    background-color: #009933;
+}
+
+#hobbiesContainer {
+    background-color: black;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#hobbies {
+    width: 100%;
+    display: inline-block;
+}
+
+#hobbies img {
+    width: 100%;
+    height: auto;
+}
+
+#about {
+    background-color: #023D51;
+    /*height: 250px;*/
+    width: 100%;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+#info {
+    color: white;
+}
+
+#software {
+    font-size: 45px;
+}
+#experience {
+    font-size: 23px;
+}
+#neu {
+    font-size: 21px;
+}
+.icon {
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.icon img {
+    width: 70px;
+    height: 70px;
+}
+#resumeContainer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 0px;
+    width: 100%;
+    background-color: #1a1a1a;
+    color: #f2f2f2;
+    /*height: 500px;*/
+}
+#resumeContainer p {
+    display: inline;
+}
+#resume {
+    margin: 0 auto;
+    min-width: 500px;
+    width: 65%;
+}
+hr.thick {
+    background-color: #eee;
+    border: 0 none;
+    color: #eee;
+    height: 3px;
+}
+hr.thin {
+    background-color: #eee;
+    border: 0 none;
+    color: #eee;
+    height: 1px;
+}
+.resumeHeader {
+    font-size: 20px;
+    padding-top: 70px; 
+    margin-top: -70px;
+    color: white;
+}
+.resumeSubHeader {
+    text-align: left;
+}
+.title {
+    /*float: left;*/
+    font-size: 22px;
+    font-weight: bold;
+}
+.subTitle {
+    /*float: left;*/
+    left: 0%;
+    font-size: 20px;
+}
+.right {
+    float: right;
+    font-size: 16px;
+    font-style: italic;
+}
+.bold {
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+.description {
+    font-size: 16px;
+    text-align: left;
+}
+
+#projectContainer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 0px;
+    width: 100%;
+    background-color: #001F0A;
+    color: #f2f2f2;
+}
+#projects {
+    margin: 0 auto;
+    min-width: 500px;
+    width: 85%;
+}
+.projectsInner {
+    margin: 0 auto;
+    min-width: 500px;
+    width: 76%;
+}
+.projectsInner a {
+    text-decoration: none;
+    color: green;
+}
+
+#eaImages img, #kwocImages img {
+    display: inline-block;
+    width: 50%;
+    height: auto;
+}
+
+#kwocManagerImage {
+    width: 100%;
+}
+
+
+
+
+.java, .scala, .html, .css, .javascript, .c, .cplusplus, .objectiveC {
+    font-weight: bold;
+}
+.java {
+    color: #C18435;
+}
+.scala {
+    color: #D44152;
+}
+.html {
+    color: #F16039;
+}
+.css {
+    color: #6C538B;
+}
+.javascript {
+    color: #F4E37D;
+}
+.c {
+    color: #00942A;
+}
+.cplusplus {
+    color: #FD658E;
+}
+.objectiveC {
+    color: #7E83F4;
+}
