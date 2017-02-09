@@ -532,6 +532,13 @@ $("#compareDialog").dialog({
 	}
 });
 
+$("#compareEmail").keypress(function(event) {
+	var keycode = (event.keyCode ? event.keyCode : event.which);
+    if(keycode == '13'){
+        return false; 
+    }
+})
+
 $(".compare").on("click", function() {
 	if (compareClicked) {
 		removeCompare();
