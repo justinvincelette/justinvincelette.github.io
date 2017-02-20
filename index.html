@@ -124,32 +124,27 @@
 		</div>
 		</div>
 		<div id="projectContainer">
-		<div id="projects">
-			<div class="projectsInner">
-				<a name="projectsLink"><p class="resumeHeader">Projects</p></a>
-			</div>
-			<hr class="thick"><br>
-			<div id="endlessAdventure">
-				<div id="eaImages">
-					<img src="images/EA1.png"/><!--
-					--><img src="images/EA2.png"/>
+			<div class="projects">
+				<a name="projectsLink"><p class="resumeHeader">Personal Projects</p></a>
+				<hr class="thick"><br>
+				<div id="endlessAdventure">
+					<div id="eaImages">
+						<img src="images/EA1.png"/><!--
+						--><img src="images/EA2.png"/>
+					</div>
+						<span class="title">Endless Adventure</span>
+						<span class="right">Web Application</span><br>
+						<span class="subTitle"><a href="EndlessAdventure.html">Try it out</a></span>
+						<span class="right"><a href="https://github.com/justinvincelette/EndlessAdventure">Source code on GitHub</a></span><br>
+						<p class="description">
+							Endless Adventure is a web application that allows you to keep track of places that you've traveled to.  With the use of an interactive map, you can quickly add countries and states visited, and watch as your statistics automatically update. Also includes the capability to create an account, save your progress, and compare against friends.<br>
+							The app demonstrates data vizualization skills through the use of <span class="bold">D3.js</span> and <span class="bold">jQuery</span>.  The user account system is assisted by Firebase.<br>
+							<span class="javascript">Javascript</span>, <span class="html">HTML</span>, <span class="css">CSS</span><br><br>
+						</p>
 				</div>
-				<div class="projectsInner">
-					<span class="title">Endless Adventure</span>
-					<span class="right">Web Application</span><br>
-					<span class="subTitle"><a href="EndlessAdventure.html">Try it out</a></span>
-					<span class="right"><a href="https://github.com/justinvincelette/EndlessAdventure">Source code on GitHub</a></span><br>
-					<p class="description">
-						Endless Adventure is a web application that allows you to keep track of places that you've traveled to.  With the use of an interactive map, you can quickly add countries and states visited, and watch as your statistics automatically update. Also includes the capability to create an account, save your progress, and compare against friends.<br>
-						The app demonstrates data vizualization skills through the use of <span class="bold">D3.js</span> and <span class="bold">jQuery</span>.  The user account system is assisted by Firebase.<br>
-						<span class="javascript">Javascript</span>, <span class="html">HTML</span>, <span class="css">CSS</span><br><br>
-					</p>
-				</div>
-			</div>
-			<hr class="thin">
-			<div id="kwocManager">
-				<img id="kwocManagerImage" src="images/kwocManager.png"/>
-				<div class="projectsInner">
+				<hr class="thin"><br>
+				<div id="kwocManager">
+					<img id="kwocManagerImage" src="images/kwocManager.png"/>
 					<span class="title">KWOC Manager</span>
 					<span class="right">Web Application</span><br>
 					<span class="subTitle"><a href="https://kwoc-manager.herokuapp.com/">Try it out</a></span>
@@ -160,14 +155,12 @@
 						<span class="javascript">Javascript</span>, <span class="html">HTML</span>, <span class="css">CSS</span><br><br>
 					</p>
 				</div>
-			</div>
-			<hr class="thin">
-			<div id="kwoc">
-				<div id="kwocImages">
-					<img src="images/kwoc.png"/><!--
-					--><img src="images/kwoc2.png"/>
-				</div>
-				<div class="projectsInner">
+				<hr class="thin"><br>
+				<div id="kwoc">
+					<div id="kwocImages">
+						<img src="images/kwoc.png"/><!--
+						--><img src="images/kwoc2.png"/>
+					</div>
 					<span class="title">Kristen's World Of Color</span>
 					<span class="right">Web Site</span><br>
 					<span class="subTitle"><a href="http://kristensworldofcolor.com/">Check it out</a></span>
@@ -180,6 +173,73 @@
 				</div>
 			</div>
 		</div>
+		<div id="projectContainer2">
+			<div class="projects">
+				<p class="resumeHeader">Class Projects</p>
+				<hr class="thick"><br>
+				<div id="midiMusicPlayer">
+					<table>
+						<tr>
+							<td id="midiVid">
+								<video controls>
+									<source src="videos/midi.mp4">
+								</video>
+							</td>
+							<td id="midiInfo">
+								<span class="title">MIDI Music Player</span>
+									<span class="right"><a href="https://github.com/justinvincelette/ClassProjects/tree/master/MidiMusicPlayer">Source code on GitHub</a></span><br>
+									<p class="description">
+										Program that plays music while showing the notes in a GUI.  The notes are read from a text file and the GUI allows users to play, pause, restart, and add/delete notes.  The program demonstrates Object Oriented Design techniques and the Model View Controller design pattern.
+										<br>
+										<span class="java">Java</span><br><br>
+									</p>
+							</td>
+						</tr>
+					</table>
+					<br>
+				</div>
+				<hr class="thin"><br>
+				<div id="maze">
+					<table>
+						<tr>
+							<td>
+								<span class="title">Maze Solver/Game</span>
+									<span class="right"><a href="https://github.com/justinvincelette/ClassProjects/tree/master/Maze">Source code on GitHub</a></span><br>
+									<p class="description">
+										Program that creates a random maze by using Kruskal's alogorithm. The maze can be solved automatically through a Breadth First Search or a Depth First Search, by clicking 'b' or 'd' on the keyboard.  Alternatively, the user can beat the maze by themselves by using the arrow keys to get to the end.  Pressing 'r' on the keyboard will generate a new random maze.<br>
+										<span class="java">Java</span><br><br>
+									</p>
+							</td>
+							<td>
+								<video controls>
+									<source src="videos/maze.mp4">
+								</video>
+							</td>
+						</tr>
+					</table>
+					<br>
+				</div>
+				<hr class="thin"><br>
+				<div id="sudoku">
+					<table>
+						<tr>
+							<td>
+								<div style="text-align: center;">
+									<img src="images/sudoku.gif" loop=infinite/>
+								</div>
+							</td>
+							<td>
+								<span class="title">Sudoku Solver</span>
+									<span class="right"><a href="https://github.com/justinvincelette/ClassProjects/tree/master/SudokuSolver">Source code on GitHub</a></span><br>
+									<p class="description">
+										Program that uses a recursive algorithm to solve Sudoku puzzles. In order to greatly reduce the time it takes to solve each puzzle, the program picks the cell with the least number of possibilities each time.  It reads in the puzzles from a text file, and prints out the solutions and the number of recursions it took to solve.<br>
+										<span class="cplusplus">C++</span><br><br>
+									</p>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>

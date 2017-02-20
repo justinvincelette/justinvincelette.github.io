@@ -205,20 +205,41 @@ hr.thin {
     background-color: #001F0A;
     color: #f2f2f2;
 }
-#projects {
+#projectContainer2 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 0px;
+    width: 100%;
+    background-color: #330000;
+    color: #f2f2f2;
+}
+.projects {
     margin: 0 auto;
     min-width: 500px;
-    width: 85%;
+    width: 65%;
 }
-.projectsInner {
-    margin: 0 auto;
-    min-width: 500px;
-    width: 76%;
-}
-.projectsInner a {
+.projects a {
     text-decoration: none;
     color: lightseagreen;
 }
+
+td
+{
+    padding:0 15px 0 15px;
+    width: 32%;
+}
+
+video {
+    width: 100%;
+}
+
+#midiVid {
+    width: 48%;
+}
+#midiInfo {
+    width: 26%;
+}
+
 
 #eaImages img, #kwocImages img {
     display: inline-block;
@@ -229,7 +250,6 @@ hr.thin {
 #kwocManagerImage {
     width: 100%;
 }
-
 
 
 
