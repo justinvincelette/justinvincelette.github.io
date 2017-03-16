@@ -61,7 +61,7 @@ body {
 #dropdown {
     position: fixed;
     display: inline-block;
-    left: 85%;
+    right: 185px;
     top: 70px;
 }
 
