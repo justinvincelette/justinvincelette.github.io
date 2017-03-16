@@ -52,7 +52,7 @@ body {
 
 #nav {
     position: fixed;
-    right: 3%;
+    right: 25px;
     top: 8px;
     font-size: 35px;
     cursor: pointer;
