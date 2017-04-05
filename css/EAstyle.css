@@ -202,3 +202,7 @@ label {
   text-align: center;
   font-size: 30px;
 }
+
+.no-close .ui-dialog-titlebar-close {
+  display: none 
+}

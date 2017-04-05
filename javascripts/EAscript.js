@@ -56,6 +56,7 @@ $("#welcomeDialog").dialog({
 	mexHeight: 200,
 	modal: true,
 	resizable: false,
+	dialogClass: 'no-close',
 	buttons: {
 		"Log In": function() {
 			$("#welcomeDialog").dialog("close");
