@@ -176,6 +176,8 @@ hr.thin {
     /*float: left;*/
     font-size: 22px;
     font-weight: bold;
+    text-decoration: none;
+    color: white;
 }
 .subTitle {
     /*float: left;*/
@@ -247,7 +249,7 @@ video {
     height: auto;
 }
 
-#kwocManagerImage {
+#kwocManagerImage, #creativityWithColorImage {
     width: 100%;
 }
 
