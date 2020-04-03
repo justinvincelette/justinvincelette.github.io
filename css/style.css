@@ -255,8 +255,14 @@ video {
 
 
 
-.java, .scala, .html, .css, .javascript, .c, .cplusplus, .objectiveC {
+.java, .scala, .html, .css, .javascript, .c, .cplusplus, .objectiveC, .go, .python, .other {
     font-weight: bold;
+}
+.go {
+    color: #00ADD8;
+}
+.python {
+    color: #3572A5;
 }
 .java {
     color: #C18435;
@@ -281,4 +287,7 @@ video {
 }
 .objectiveC {
     color: #7E83F4;
+}
+.other {
+    color: #969696;
 }
